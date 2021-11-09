@@ -1,0 +1,33 @@
+.RadioItem{
+    margin-bottom: 50px;
+    position: relative;
+}
+.Radio-link{}
+.Radio-img{
+    position: relative;
+}
+.RadioImg{
+    width: 136px;
+    border-radius: 50%;
+}
+.RadioImgIcon{
+    width: 46px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 1px;
+}
+.Radio-icon{
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    font-size: 21px;
+}
+.RadioItem .title-icon{
+    text-align: center;
+}
+.RadioItem .text-icon{
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.button-vip{
+    background-color: #f4d830;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 10px;
+}

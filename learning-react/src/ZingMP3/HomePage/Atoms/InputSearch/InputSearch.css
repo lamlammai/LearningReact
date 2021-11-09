@@ -1,0 +1,35 @@
+.input{
+    border: 0;
+    font-size: 17px;
+    border-radius: 0 11px 11px 0px;
+    background-color: #2f2739;
+    width: 100%;
+    outline: none;
+}
+.FormSearch{
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    resize: none;
+}
+form .input1{
+    background-color: #4e2f7d;
+    border-radius: 0 11px 0 0;
+}
+form .input2{
+    background-color: #4e2f7d;
+    border-radius: 11px 0px 0px 0px;
+}
+.btn-search{
+    margin: 0px 0 0 0px;
+    background-color: #2f2739;
+    border: 0;
+    /* padding: 0 11px 6px 11px; */
+    font-size: 21px;
+    color: #fff;
+    border-bottom-left-radius: 11px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

@@ -1,0 +1,53 @@
+.ZingItem{
+    margin: 14px 0px;
+    padding: 0 18px;
+    border-radius: 6px;
+    /* border: 1px solid #ccc; */
+    background-color: #863ea4;
+}
+.ZingItem:hover{
+    background-color: #814c8e;
+}
+.ZingItem:hover .ZingItemIcon{
+    display: block;
+}
+.ZingItem:hover .ZingImg{
+    background-color: #000;
+    opacity: 0.5;
+}
+.id{
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(74,144,226,0);
+    -webkit-text-stroke: 1px #e35050;
+    padding-right: 10px;
+}
+.ZingImg{
+    width: 60px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.infoSong{}
+.ZingSong{
+    margin: 0;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+}
+.ZingSinger{
+    margin: 0;
+    color: #fff;
+}
+.ZingItem-link{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.ZingItemIcon{
+    display: none;
+    left: 49px;
+    position: absolute;
+    font-size: 17px;
+    color: #fff;
+}

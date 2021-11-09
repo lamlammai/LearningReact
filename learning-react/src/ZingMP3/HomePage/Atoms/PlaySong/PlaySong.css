@@ -1,0 +1,17 @@
+.img-singer{
+    width: 60px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.info{
+    padding-left: 10px;
+}
+.song{
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
+.singer{
+    margin: 0;
+    color: #ccc;
+}

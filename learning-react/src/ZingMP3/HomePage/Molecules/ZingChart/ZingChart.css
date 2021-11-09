@@ -1,0 +1,37 @@
+.ZingChart{
+    background: url(https://zjs.zadn.vn/zmp3-desktop/releases/v1.3.18/static/media/bg-chart.fd766403.jpg) top/cover no-repeat;
+}
+.ZingChartMain{
+    display: flex;
+    background: #692c77;
+    opacity: 0.9;
+}
+.ListZing{
+    list-style: none;
+    padding-left: 10px;
+    margin: 0;
+}
+.Chart{
+    width: 71%;
+    margin-top: 19px;
+}
+.BtnMore{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.More{
+    padding: 6px 11px;
+    border-radius: 21px;
+    width: 118px;
+    font-size: 16px;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #642b6f;
+    text-align: center;
+    align-items: center;
+}
+.More:hover{
+    cursor: pointer;
+    background-color: rgb(77, 15, 90);
+}

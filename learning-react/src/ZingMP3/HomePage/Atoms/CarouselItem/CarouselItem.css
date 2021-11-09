@@ -1,0 +1,33 @@
+.CarouselItems{
+    position: relative;
+    
+}
+.CarouselItems-img{
+    overflow: hidden;
+}
+.Carousel-link{}
+.CarouselImg{
+    transition: transform .5s;
+    width: 202px;
+}
+.CarouselImg:hover{
+    opacity: 0.5;
+    transform: scale(1.1) translateZ(0);
+    
+}
+
+.title{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+    padding: 6px 0px 0;
+}
+.title:hover,.text:hover{
+ color: rgba(196, 18, 202, 0.801);
+}
+.text{
+    font-size: 13px;
+    color: #928d8d;
+    font-weight: 500;
+}

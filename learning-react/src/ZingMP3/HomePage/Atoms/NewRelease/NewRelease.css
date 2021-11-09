@@ -1,0 +1,84 @@
+.NewRelease{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.NewReleaseTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.NewReleaseText{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.NewReleaseItemImg{
+    width: 59%;
+    overflow: hidden;
+    height: 88%;
+    margin: 0 0px 0 9px;
+}
+.NewReleasePlay{
+    position: ABSOLUTE;
+    left: 55px;
+    font-size: 24px;
+    color: #fff;
+}
+.NewReleaseItem{
+    border-radius: 6px;
+    display: flex;
+    width: 347px;
+    height: 140px;
+    background-color: #2b2634;
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+}
+.NewReleaseImg{
+    height: 100%;
+    border-radius: 5px;
+    transition: transform .7s;
+    overflow: hidden;
+}
+.NewReleaseImg:hover{
+    opacity: 0.5;
+    transform: scale(1.1) translateZ(0);
+}
+.NewReleaseTop{
+    width: 100%;
+}
+.NewReleaseSongMain{
+    margin: 14px 16px 13px;
+}
+.NewReleaseSong{
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.NewReleaseSinger{
+    margin: 0;
+    font-size: 13px;
+    color: #afabab;
+}
+.NewReleaseSongSubMain{
+    display: flex;
+    margin: 0 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+.NewReleaseNumber{
+    margin: 0;
+    font-size: 44px;
+    font-weight: bold;
+    color: rgba(74,144,226,0);
+    -webkit-text-stroke: 1px #afa8a8;
+}
+
+.NewReleaseTime{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ccc;
+}

@@ -1,0 +1,14 @@
+.HistoryIcon{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.history-link-icon{}
+.HistoryIcon-item{color: #fff;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.HistoryImg:hover .HistoryIcon{
+    display: block;
+}

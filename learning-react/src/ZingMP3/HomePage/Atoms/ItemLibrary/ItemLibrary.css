@@ -1,0 +1,16 @@
+.itemLibrary{
+    margin: 0 10px;
+}
+li .item-librarylink{
+    display: flex;
+    align-items: center;
+}
+li a .icon-library{
+
+    padding: 4px; 
+    /* margin: 0 5px 0 10px; */
+}
+.text-library{
+    color: #fff;
+    font-size: 14px;
+}

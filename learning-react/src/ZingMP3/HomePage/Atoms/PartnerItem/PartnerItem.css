@@ -1,0 +1,13 @@
+.PartnerItem{
+    display: flex;
+    width: 115px;
+    border-radius: 6px;
+    height: 64px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-around;
+}
+.PartnerItemImg{
+    width: 90%;
+    height: 80%;
+}

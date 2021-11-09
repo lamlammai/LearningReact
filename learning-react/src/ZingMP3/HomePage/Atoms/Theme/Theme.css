@@ -1,0 +1,74 @@
+.Theme{
+    color: #5e23b6;
+    background-color: #2f2739;
+    font-size: 30px;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.overlay{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    bottom: 0;
+    z-index: 12;
+}
+.exit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    margin: 0 18px 00;
+    font-size: 23px;
+    color: #fff;
+    cursor: pointer;
+}
+.Name{
+    margin: 0;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.Interface{
+    border-radius: 12px;
+    padding: 0 0 0 30px;
+    width: 841px;
+    position: absolute;
+    z-index: 15;
+    transform: translate(-104%,3%);
+    background-color: #300b53;
+}
+.Theme-Main{
+    position: relative;
+}
+.theme{
+    display: flex;
+    margin-top: 8px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.theme-title{
+    margin-top: 8px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.theme-content{
+    width: 130px;
+    margin: 0 21px 0 0;
+}
+.theme-img{
+    border-radius: 12px;
+    width: 100%;
+}
+.theme-text{
+    color: #fff;
+    font-weight: 500;
+}

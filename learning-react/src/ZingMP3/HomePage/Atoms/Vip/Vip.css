@@ -1,0 +1,14 @@
+.Vip{
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: purple;
+    background-image: linear-gradient(to bottom right, #6950E5, #C36CD8);
+    cursor: pointer;
+}
+.text-vip{
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+}
