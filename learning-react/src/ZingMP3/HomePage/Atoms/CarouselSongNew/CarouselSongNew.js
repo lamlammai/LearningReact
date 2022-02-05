@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Pagination from "../Pagination/Pagination";
-import CarouselItem from "../CarouselItem/CarouselItem"; 
+import CarouselItem from "../CarouselItem/CarouselItem";
 // eslint-disable-next-line
 import db from "../../FirebaseConfig";
 import {
@@ -15,7 +15,7 @@ function CarouselSongNew() {
   const dispatch = useDispatch();
   const song = useSelector(selectSongData);
   // const [song, setSongs] = useState([]);
-  const currentPage = useSelector(selectSongPage)
+  const currentPage = useSelector(selectSongPage);
   const [postPerPage] = useState(5);
   useEffect(
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -26,9 +26,8 @@ function CarouselSongNew() {
       //     setSongs(snapshot.docs.map(e => e.data()))
       //   });
       dispatch(fetchNewSong());
-      
     },
-    []
+    [dispatch]
   );
   if (song.length === 0) return null;
   const indexOfLastPost = currentPage * postPerPage;
